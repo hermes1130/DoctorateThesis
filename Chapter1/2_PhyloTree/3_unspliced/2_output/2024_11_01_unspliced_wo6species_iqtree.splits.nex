@@ -1,0 +1,96 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=28;
+TAXLABELS
+[1] 'Homo_sapiens'
+[2] 'Pan_troglodytes'
+[3] 'Pan_paniscus'
+[4] 'Gorilla_gorilla_gorilla'
+[5] 'Pongo_abelii'
+[6] 'Pongo_pygmaeus'
+[7] 'Nomascus_leucogenys'
+[8] 'Symphalangus_syndactylus'
+[9] 'Macaca_mulatta'
+[10] 'Macaca_fascicularis'
+[11] 'Macaca_thibetana_thibetana'
+[12] 'Macaca_nemestrina'
+[13] 'Papio_anubis'
+[14] 'Theropithecus_gelada'
+[15] 'Cercocebus_atys'
+[16] 'Chlorocebus_sabaeus'
+[17] 'Rhinopithecus_roxellana'
+[18] 'Trachypithecus_francoisi'
+[19] 'Piliocolobus_tephrosceles'
+[20] 'Colobus_angolensis_palliatus'
+[21] 'Cebus_imitator'
+[22] 'Sapajus_apella'
+[23] 'Saimiri_boliviensis_boliviensis'
+[24] 'Aotus_nancymaae'
+[25] 'Nycticebus_coucang'
+[26] 'Lemur_catta'
+[27] 'Otolemur_garnettii'
+[28] 'Mus_musculus'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=28 nsplits=53;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 2,
+	100	 3,
+	100	 2 3,
+	100	 1 2 3,
+	100	 4,
+	100	 1 2 3 4,
+	100	 5,
+	100	 6,
+	100	 5 6,
+	100	 1 2 3 4 5 6,
+	100	 7,
+	100	 8,
+	100	 7 8,
+	100	 1 2 3 4 5 6 7 8,
+	100	 9,
+	100	 10,
+	100	 9 10,
+	100	 12,
+	100	 9 10 12,
+	100	 11,
+	100	 9 10 11 12,
+	100	 13,
+	100	 14,
+	100	 13 14,
+	100	 15,
+	100	 13 14 15,
+	100	 9 10 11 12 13 14 15,
+	100	 16,
+	100	 9 10 11 12 13 14 15 16,
+	100	 17,
+	100	 18,
+	100	 17 18,
+	100	 19,
+	100	 20,
+	100	 19 20,
+	100	 17 18 19 20,
+	100	 9 10 11 12 13 14 15 16 17 18 19 20,
+	100	 21 22 23 24 25 26 27 28,
+	100	 21,
+	100	 22,
+	100	 21 22,
+	100	 23,
+	100	 21 22 23,
+	100	 24,
+	100	 21 22 23 24,
+	100	 25 26 27 28,
+	100	 25,
+	100	 27,
+	100	 25 27,
+	100	 26,
+	100	 25 26 27,
+	100	 28,
+;
+END; [Splits]
+

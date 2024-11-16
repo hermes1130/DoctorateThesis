@@ -1,0 +1,290 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Input file name: ../data/unspliced_fasta/ZEB2_wo6species.mafft
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 774424
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 28 sequences with 188848 nucleotide sites
+Number of constant sites: 133083 (= 70.471% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 133083 (= 70.471% of all sites)
+Number of parsimony informative sites: 25462
+Number of distinct site patterns: 17075
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+G4        -635221.608 1270567.215 +        1 1270567.257 +        1 1271196.434 +        1
+TVM+F+G4        -635251.947 1270625.894 - 1.81e-13 1270625.934 - 1.81e-13 1271244.964 -  2.9e-11
+GTR+F+I+G4      -635253.338 1270632.677 -  6.1e-15 1270632.719 - 6.09e-15 1271272.045 - 3.81e-17
+GTR+F+I         -635584.541 1271293.082 - 2.4e-158 1271293.123 - 2.4e-158 1271922.301 - 2.4e-158
+TIM2+F+G4       -635762.696 1271645.393 - 7.53e-235 1271645.432 - 7.54e-235 1272254.315 - 1.92e-230
+TPM2u+F+G4      -635796.946 1271711.892 - 2.73e-249 1271711.930 - 2.74e-249 1272310.666 - 1.12e-242
+TIM3+F+G4       -635800.823 1271721.645 - 2.08e-251 1271721.684 - 2.09e-251 1272330.567 - 5.32e-247
+TPM3u+F+G4      -635827.438 1271772.875 - 1.56e-262 1271772.913 - 1.57e-262 1272371.648 - 6.39e-256
+TIM+F+G4        -635961.618 1272043.236 - 3.06e-321 1272043.275 - 3.07e-321 1272652.158 - 7.83e-317
+K3Pu+F+G4       -635991.900 1272101.800 -        0 1272101.838 -        0 1272700.573 -        0
+TN+F+G4         -636240.797 1272599.593 -        0 1272599.631 -        0 1273198.367 -        0
+HKY+F+G4        -636271.153 1272658.305 -        0 1272658.341 -        0 1273246.930 -        0
+GTR+F           -638218.050 1276558.099 -        0 1276558.139 -        0 1277177.170 -        0
+SYM+G4          -639516.090 1279150.179 -        0 1279150.217 -        0 1279748.953 -        0
+TVMe+G4         -639554.641 1279225.283 -        0 1279225.319 -        0 1279813.907 -        0
+TIMe+G4         -639568.860 1279251.720 -        0 1279251.755 -        0 1279830.196 -        0
+K3P+G4          -639607.627 1279327.255 -        0 1279327.289 -        0 1279895.582 -        0
+TIM2e+G4        -639612.261 1279338.522 -        0 1279338.557 -        0 1279916.998 -        0
+TIM3e+G4        -639641.273 1279396.545 -        0 1279396.580 -        0 1279975.021 -        0
+TPM2+G4         -639650.257 1279412.513 -        0 1279412.547 -        0 1279980.840 -        0
+TNe+G4          -639662.023 1279436.046 -        0 1279436.080 -        0 1280004.373 -        0
+TPM3+G4         -639680.759 1279473.518 -        0 1279473.552 -        0 1280041.845 -        0
+K2P+G4          -639700.801 1279511.601 -        0 1279511.634 -        0 1280069.780 -        0
+F81+F+G4        -652754.611 1305623.222 -        0 1305623.257 -        0 1306201.698 -        0
+JC+G4           -654804.192 1309716.385 -        0 1309716.416 -        0 1310264.414 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 0.9772
+  A-G: 3.7336
+  A-T: 0.5156
+  C-G: 1.2152
+  C-T: 3.4302
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3041
+  pi(C) = 0.1896
+  pi(G) = 0.1955
+  pi(T) = 0.3107
+
+Rate matrix Q:
+
+  A   -0.8468    0.1459    0.5747    0.1262
+  C     0.234     -1.26     0.187    0.8393
+  G    0.8941    0.1815     -1.32    0.2447
+  T    0.1235    0.5122    0.1539   -0.7896
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.077
+
+ Category  Relative_rate  Proportion
+  1         0.1521         0.25
+  2         0.4988         0.25
+  3         1.012          0.25
+  4         2.337          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -635221.6946 (s.e. 1474.1644)
+Unconstrained log-likelihood (without tree): -1049179.0026
+Number of free parameters (#branches + #model parameters): 62
+Akaike information criterion (AIC) score: 1270567.3892
+Corrected Akaike information criterion (AICc) score: 1270567.4306
+Bayesian information criterion (BIC) score: 1271196.6085
+
+Total tree length (sum of branch lengths): 0.7301
+Sum of internal branch lengths: 0.2297 (31.4642% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Mus_musculus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                       +--Homo_sapiens
+                    +--| (100)
+                    |  |  +--Pan_troglodytes
+                    |  +--| (100)
+                    |     +--Pan_paniscus
+                 +--| (100)
+                 |  +--Gorilla_gorilla_gorilla
+              +--| (100)
+              |  |  +--Pongo_abelii
+              |  +--| (100)
+              |     +--Pongo_pygmaeus
+           +--| (100)
+           |  |  +--Nomascus_leucogenys
+           |  +--| (100)
+           |     +--Symphalangus_syndactylus
+        +--| (100)
+        |  |                 +--Macaca_mulatta
+        |  |              +--| (100)
+        |  |              |  +--Macaca_fascicularis
+        |  |           +--| (100)
+        |  |           |  +--Macaca_nemestrina
+        |  |        +--| (100)
+        |  |        |  +--Macaca_thibetana_thibetana
+        |  |     +--| (100)
+        |  |     |  |     +--Papio_anubis
+        |  |     |  |  +--| (100)
+        |  |     |  |  |  +--Theropithecus_gelada
+        |  |     |  +--| (100)
+        |  |     |     +--Cercocebus_atys
+        |  |  +--| (100)
+        |  |  |  +--Chlorocebus_sabaeus
+        |  +--| (100)
+        |     |     +--Rhinopithecus_roxellana
+        |     |  +--| (100)
+        |     |  |  +--Trachypithecus_francoisi
+        |     +--| (100)
+        |        |  +--Piliocolobus_tephrosceles
+        |        +--| (100)
+        |           +--Colobus_angolensis_palliatus
++-------| (100)
+|       |         +--Cebus_imitator
+|       |      +--| (100)
+|       |      |  +--Sapajus_apella
+|       |   +--| (100)
+|       |   |  +--Saimiri_boliviensis_boliviensis
+|       +---| (100)
+|           +--Aotus_nancymaae
+|
+|              +-----Nycticebus_coucang
+|   +----------| (100)
+|   |          +------Otolemur_garnettii
++---| (100)
+|   +-------Lemur_catta
+|
++-----------------------------------------------------------Mus_musculus
+
+Tree in newick format:
+
+(((((((Homo_sapiens:0.0042455375,(Pan_troglodytes:0.0009647058,Pan_paniscus:0.0010467067)100:0.0029675396)100:0.0010594040,Gorilla_gorilla_gorilla:0.0059927766)100:0.0050177516,(Pongo_abelii:0.0009067781,Pongo_pygmaeus:0.0006993960)100:0.0098858881)100:0.0014010332,(Nomascus_leucogenys:0.0046492514,Symphalangus_syndactylus:0.0050016348)100:0.0090254181)100:0.0057663275,((((((Macaca_mulatta:0.0012495136,Macaca_fascicularis:0.0012970089)100:0.0003936539,Macaca_nemestrina:0.0027074199)100:0.0003116196,Macaca_thibetana_thibetana:0.0018526098)100:0.0018879258,((Papio_anubis:0.0016395381,Theropithecus_gelada:0.0018265644)100:0.0015233366,Cercocebus_atys:0.0049294678)100:0.0008396157)100:0.0015039764,Chlorocebus_sabaeus:0.0065985370)100:0.0035708523,((Rhinopithecus_roxellana:0.0047158718,Trachypithecus_francoisi:0.0053113074)100:0.0019428997,(Piliocolobus_tephrosceles:0.0054412241,Colobus_angolensis_palliatus:0.0057509504)100:0.0018350453)100:0.0039414808)100:0.0127853237)100:0.0094550391,(((Cebus_imitator:0.0035209847,Sapajus_apella:0.0036765993)100:0.0104746567,Saimiri_boliviensis_boliviensis:0.0185472234)100:0.0016403110,Aotus_nancymaae:0.0135069069)100:0.0219228198)100:0.0406563485,((Nycticebus_coucang:0.0312541359,Otolemur_garnettii:0.0338347050)100:0.0567809481,Lemur_catta:0.0395110788)100:0.0231157203,Mus_musculus:0.2896679416);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -635221.69463939
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                       +--Homo_sapiens
+                    +--| (100)
+                    |  |  +--Pan_troglodytes
+                    |  +--| (100)
+                    |     +--Pan_paniscus
+                 +--| (100)
+                 |  +--Gorilla_gorilla_gorilla
+              +--| (100)
+              |  |  +--Pongo_abelii
+              |  +--| (100)
+              |     +--Pongo_pygmaeus
+           +--| (100)
+           |  |  +--Nomascus_leucogenys
+           |  +--| (100)
+           |     +--Symphalangus_syndactylus
+        +--| (100)
+        |  |                 +--Macaca_mulatta
+        |  |              +--| (100)
+        |  |              |  +--Macaca_fascicularis
+        |  |           +--| (100)
+        |  |           |  +--Macaca_nemestrina
+        |  |        +--| (100)
+        |  |        |  +--Macaca_thibetana_thibetana
+        |  |     +--| (100)
+        |  |     |  |     +--Papio_anubis
+        |  |     |  |  +--| (100)
+        |  |     |  |  |  +--Theropithecus_gelada
+        |  |     |  +--| (100)
+        |  |     |     +--Cercocebus_atys
+        |  |  +--| (100)
+        |  |  |  +--Chlorocebus_sabaeus
+        |  +--| (100)
+        |     |     +--Rhinopithecus_roxellana
+        |     |  +--| (100)
+        |     |  |  +--Trachypithecus_francoisi
+        |     +--| (100)
+        |        |  +--Piliocolobus_tephrosceles
+        |        +--| (100)
+        |           +--Colobus_angolensis_palliatus
++-------| (100)
+|       |         +--Cebus_imitator
+|       |      +--| (100)
+|       |      |  +--Sapajus_apella
+|       |   +--| (100)
+|       |   |  +--Saimiri_boliviensis_boliviensis
+|       +---| (100)
+|           +--Aotus_nancymaae
+|
+|              +-----Nycticebus_coucang
+|   +----------| (100)
+|   |          +------Otolemur_garnettii
++---| (100)
+|   +-------Lemur_catta
+|
++-----------------------------------------------------------Mus_musculus
+
+
+Consensus tree in newick format: 
+
+(((((((Homo_sapiens:0.0042453826,(Pan_troglodytes:0.0009645134,Pan_paniscus:0.0010468149)100:0.0029674630)100:0.0010594216,Gorilla_gorilla_gorilla:0.0059927879)100:0.0050175869,(Pongo_abelii:0.0009070314,Pongo_pygmaeus:0.0006988304)100:0.0098854544)100:0.0014009302,(Nomascus_leucogenys:0.0046490990,Symphalangus_syndactylus:0.0050013761)100:0.0090250561)100:0.0057657229,((((((Macaca_mulatta:0.0012496130,Macaca_fascicularis:0.0012971133)100:0.0003937946,Macaca_nemestrina:0.0027075933)100:0.0003117291,Macaca_thibetana_thibetana:0.0018526665)100:0.0018880383,((Papio_anubis:0.0016396573,Theropithecus_gelada:0.0018266437)100:0.0015229687,Cercocebus_atys:0.0049293515)100:0.0008397632)100:0.0015040317,Chlorocebus_sabaeus:0.0065984437)100:0.0035709126,((Rhinopithecus_roxellana:0.0047156996,Trachypithecus_francoisi:0.0053112112)100:0.0019427536,(Piliocolobus_tephrosceles:0.0054411297,Colobus_angolensis_palliatus:0.0057508382)100:0.0018349719)100:0.0039415947)100:0.0127848185)100:0.0094550855,(((Cebus_imitator:0.0035206125,Sapajus_apella:0.0036767040)100:0.0104746415,Saimiri_boliviensis_boliviensis:0.0185465915)100:0.0016404599,Aotus_nancymaae:0.0135067223)100:0.0219231489)100:0.0406512982,((Nycticebus_coucang:0.0312537248,Otolemur_garnettii:0.0338347882)100:0.0567804622,Lemur_catta:0.0395112961)100:0.0231175178,Mus_musculus:0.2896682469);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t output/2024_11_01_unspliced_wo6species_iqtree.treefile -m "GTR{0.977238,3.73358,0.515643,1.21518,3.4302}+F{0.304131,0.189645,0.19549,0.310735}+G4{1.07738}" --length 188848
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ../data/unspliced_fasta/ZEB2_wo6species.mafft --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ../data/unspliced_fasta/ZEB2_wo6species.mafft --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Nov  1 08:15:31 2024
+Total CPU time used: 400.223935 seconds (0h:6m:40s)
+Total wall-clock time used: 265.489439 seconds (0h:4m:25s)
+
