@@ -1,0 +1,20 @@
+	Supplementary table 7: GO results of B-RNA (GO groups shown in Figure 3)						
+	Enrichment FDR	nGenes	Pathway Genes	Fold Enrichment	Pathway	URL	Genes
+BP:GO - Human-specific diffDEGs  (n = 28)	1.2E-02	5	666	8.61	Cell part morphogenesis	http://amigo.geneontology.org/amigo/term/GO:0032990	PRKCQ,COBL,TNR,CHRNA7,SHANK3
+	1.2E-02	5	574	9.99	Cell morphogenesis involved in neuron differentiation	http://amigo.geneontology.org/amigo/term/GO:0048667	PRKCQ,COBL,TNR,CHRNA7,SHANK3
+	1.2E-02	5	632	9.07	Neuron projection morphogenesis	http://amigo.geneontology.org/amigo/term/GO:0048812	PRKCQ,COBL,TNR,CHRNA7,SHANK3
+	1.2E-02	5	650	8.82	Cell projection morphogenesis	http://amigo.geneontology.org/amigo/term/GO:0048858	PRKCQ,COBL,TNR,CHRNA7,SHANK3
+	1.2E-02	5	646	8.88	Plasma membrane bounded cell projection morphogenesis	http://amigo.geneontology.org/amigo/term/GO:0120039	PRKCQ,COBL,TNR,CHRNA7,SHANK3
+	1.2E-02	6	954	7.21	Neuron projection development	http://amigo.geneontology.org/amigo/term/GO:0031175	PRKCQ,COBL,TRPV4,TNR,CHRNA7,SHANK3
+	1.2E-02	6	755	9.11	Cellular component morphogenesis	http://amigo.geneontology.org/amigo/term/GO:0032989	PRKCQ,COBL,TNR,CHRNA7,SHANK3,MYOM2
+	1.2E-02	6	1081	6.36	Neuron development	http://amigo.geneontology.org/amigo/term/GO:0048666	PRKCQ,COBL,TRPV4,TNR,CHRNA7,SHANK3
+	1.2E-02	7	1521	5.28	Cell projection organization	http://amigo.geneontology.org/amigo/term/GO:0030030	PRKCQ,COBL,TRPV4,TNR,CCNO,CHRNA7,SHANK3
+	1.2E-02	7	1484	5.41	Plasma membrane bounded cell projection organization	http://amigo.geneontology.org/amigo/term/GO:0120036	PRKCQ,COBL,TRPV4,TNR,CCNO,CHRNA7,SHANK3
+	1.4E-02	5	712	8.05	Cell morphogenesis involved in differentiation	http://amigo.geneontology.org/amigo/term/GO:0000904	PRKCQ,COBL,TNR,CHRNA7,SHANK3
+	1.9E-02	5	796	7.20	Supramolecular fiber organization	http://amigo.geneontology.org/amigo/term/GO:0097435	COBL,TRPV4,CHRNA7,SHANK3,MYOM2
+	2.2E-02	6	1320	5.21	Neuron differentiation	http://amigo.geneontology.org/amigo/term/GO:0030182	PRKCQ,COBL,TRPV4,TNR,CHRNA7,SHANK3
+	2.3E-02	7	1936	4.15	Cell development	http://amigo.geneontology.org/amigo/term/GO:0048468	PRKCQ,COBL,TRPV4,TNR,CHRNA7,SHANK3,MYOM2
+							
+BP:GO - Chimp-specific diffDEGs  (n = 14)	nothing significant to report 						
+							
+BP:GO - Orang-specific diffDEGs  (n = 19)	nothing significant to report 						
